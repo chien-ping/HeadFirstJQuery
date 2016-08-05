@@ -5,4 +5,8 @@
  $()
  jQuery()函式的快捷模式，簡寫
  
+ 定義Jquery=$
+ 
+ https://github.com/jquery/jquery/blob/master/src/jquery.js
+ 
  
