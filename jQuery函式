@@ -1,0 +1,8 @@
+ JQuery()
+ JQuery函式:指向稱作JQuery這個function的程式碼區塊，
+ 參數可放入 CSS Selector、HTML、javaScript Object
+ 
+ $()
+ jQuery()函式的快捷模式，簡寫
+ 
+ 
