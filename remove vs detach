@@ -1,0 +1,9 @@
+P136
+https://api.jquery.com/detach/
+http://chimerhapsody.blogspot.tw/2013/03/jquery-detach-remove.html
+
+
+p = $("p").detach();
+...(略)
+...(略)
+p.appendTo("body");
