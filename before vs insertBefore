@@ -1,0 +1,5 @@
+P159
+http://api.jquery.com/before/
+語序上的差異
+$(target).before(contentToBeInserted)
+$(contentToBeInserted).insertBefore(target)
