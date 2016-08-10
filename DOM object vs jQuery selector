@@ -1,0 +1,6 @@
+How do I pull a native DOM element from a jQuery object?
+https://learn.jquery.com/using-jquery-core/faq/how-do-i-pull-a-native-dom-element-from-a-jquery-object/
+
+$("#googleMap")[0]===document.getElementById("googleMap")>>false (一個是Jquery物件，一個是DOM物件)
+$("#googleMap")[0]==document.getElementById("googleMap")>> true
+$("#googleMap")[0]===$("#googleMap").get(0)>>true
