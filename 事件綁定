@@ -9,6 +9,24 @@ delegate:
 3. 事件事綁定在父(祖先)元素上
 4.delegate 裡function的this指的是子元素
 https://jsfiddle.net/q8zm0edg/
+5. 綁定時不用為每個元素綁定解決bind的效能問題
+6. 調用時如果事件目標在DOM樹中很深的位置，這樣一層層冒泡上來查找與選擇器匹配的元素，又影響到性能
+
+on:
+1.使用 on 方法的事件處理程序適用於當前或未來的元素
+2.on方法的效果和delegate方法的效果相同，通過查看jQuery源碼你會發現無論bind還是delegate其實都是通過on方法實現的，只是參數不同
+3.jQuery官方推薦使用on綁定事件
+
+
+
+
+live 
+1.已廢除
+
+
+當選擇器匹配到的元素比較多時，不要用bind疊代綁定，會影響性能；用id選擇器時，可以使用bind，簡單便捷；要給動態新增的元素綁定事件時，用delegate或on，官方推薦使用on。
+
+https://read01.com/M3Gm5P.html
 
 
 
