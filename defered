@@ -1,0 +1,5 @@
+https://api.jquery.com/category/deferred-object/
+
+
+deferred对象就是jQuery的回调函数解决方案
+http://www.ruanyifeng.com/blog/2011/08/a_detailed_explanation_of_jquery_deferred_object.html
