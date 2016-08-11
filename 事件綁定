@@ -1,0 +1,14 @@
+bind:
+1.函引隱式疊代，當榜定多元素時影響效能
+2.無法綁定尚未存在的元素
+3. 簡寫:  $(selector).事件名
+
+delegate:
+1. 為被選元素的子代元素添加事件
+2.適用於當前或未來元素
+3. 事件事綁定在父(祖先)元素上
+4.delegate 裡function的this指的是子元素
+https://jsfiddle.net/q8zm0edg/
+
+
+
